@@ -1,0 +1,6 @@
+input CategoriaInput {
+    nombre: NombreCategoria
+    descripcion: String
+    fechaCreacion: String
+    fechaActualizacion: String
+}

@@ -1,0 +1,6 @@
+input MarcaInput {
+    nombre: String!
+    descripcion: String!
+    fechaCreacion: String!
+    fechaActualizacion: String!
+}

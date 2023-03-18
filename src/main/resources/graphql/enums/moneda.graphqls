@@ -1,0 +1,19 @@
+enum Moneda {
+    USD
+    EUR
+    GBP
+    JPY
+    CHF
+    CAD
+    AUD
+    NZD
+    CNY
+    HKD
+    SGD
+    MXN
+    BRL
+    ARS
+    COP
+    CLP
+    PEN
+}

@@ -1,0 +1,7 @@
+type Marca {
+    id: ID
+    nombre: String
+    descripcion: String
+    fechaCreacion: String
+    fechaActualizacion: String
+}

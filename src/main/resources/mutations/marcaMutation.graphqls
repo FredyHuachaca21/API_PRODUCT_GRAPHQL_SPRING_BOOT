@@ -1,0 +1,5 @@
+extend type Mutation {
+    crearMarca(marca: MarcaInput): Marca
+    actualizarMarca(id: ID!, marca: MarcaInput): Marca
+    eliminarMarca(id: ID!): Boolean
+}

@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/API_PRODUCTO_GRAPHQL
+graphql:
+  tools:
+    schema-location-pattern: "**/*.graphqls"

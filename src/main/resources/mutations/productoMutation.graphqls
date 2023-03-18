@@ -1,0 +1,5 @@
+type Mutation {
+    crearProducto(producto: ProductoInput): Producto
+    actualizarProducto(id: ID!, producto: ProductoInput): Producto
+    eliminarProducto(id: ID!): Boolean
+}

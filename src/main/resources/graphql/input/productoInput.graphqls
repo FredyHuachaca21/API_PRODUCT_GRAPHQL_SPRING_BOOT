@@ -1,0 +1,13 @@
+input ProductoInput {
+    nombre: String!
+    descripcion: String!
+    precio: Float!
+    stock: Int!
+    unidadMedida: UnidadMedida!
+    moneda: Moneda!
+    fechaIngreso: String!
+    fechaActualizacion: String!
+    fechaVencimiento: String
+    marcaId: String!
+    categoriaId: String!
+}

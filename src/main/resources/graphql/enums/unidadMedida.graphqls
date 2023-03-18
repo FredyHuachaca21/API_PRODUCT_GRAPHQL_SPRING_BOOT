@@ -1,0 +1,7 @@
+enum UnidadMedida {
+    UNIDAD
+    KILOGRAMO
+    LITRO
+    GRAMO
+    MILILITRO
+}

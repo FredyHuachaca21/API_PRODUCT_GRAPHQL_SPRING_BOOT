@@ -1,0 +1,4 @@
+extend type Query {
+    buscarMarcaPorId(id: ID!): Marca
+    buscarTodasLasMarcas: [Marca!]!
+}

@@ -1,0 +1,7 @@
+type Categoria {
+    id: ID
+    nombre: NombreCategoria
+    descripcion: String
+    fechaCreacion: String
+    fechaActualizacion: String
+}

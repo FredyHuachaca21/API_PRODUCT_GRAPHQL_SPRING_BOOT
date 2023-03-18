@@ -1,0 +1,5 @@
+extend type Mutation {
+    crearCategoria(categoria: CategoriaInput): Categoria
+    actualizarCategoria(id: ID!, categoria: CategoriaInput): Categoria
+    eliminarCategoria(id: ID!): Boolean
+}

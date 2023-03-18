@@ -1,0 +1,4 @@
+extend type Query {
+    buscarCategoriaPorId(id: ID!): Categoria
+    buscarTodasLasCategorias: [Categoria!]!
+}
